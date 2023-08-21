@@ -3,6 +3,7 @@ public class Statements {
         //Switch Statements 
     public static void main(String[]args) {
 
+        System.out.println((calculateInterest(25000, 25.00))*6);
         String month = "April";
         System.out.println(getQuarter(month));
         int value = 1;
@@ -46,6 +47,11 @@ public class Statements {
         // a default is required when this statment is used as an expression 
         // if you need to return a differenet responce inside the return swtich the key word is yield // must be in a code block 
         
+    } 
+
+    public static double calculateInterest(double amount, double interestRate){
+
+        return (amount *(interestRate /100));
     }
 
 }
