@@ -15,6 +15,9 @@ public class Statements {
         //     System.out.println("Value was not 1 or 2");
         // }
 
+        
+
+
         switch( value){
             case 1:
                 System.out.println ("Value was 1");
