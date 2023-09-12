@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ParsingAndReadingInput",
+            "request": "launch",
+            "mainClass": "ParsingAndReadingInput",
+            "projectName": "Java Master Class_deb371d1"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Challenge",
+            "request": "launch",
+            "mainClass": "Challenge",
+            "projectName": "Java Master Class_deb371d1"
+        },
+        {
+            "type": "java",
+            "name": "Challenge2",
+            "request": "launch",
+            "mainClass": "Challenge2",
+            "projectName": "Java Master Class_deb371d1"
+        },
+        {
+            "type": "java",
+            "name": "Expressions",
+            "request": "launch",
+            "mainClass": "Expressions",
+            "projectName": "Java Master Class_deb371d1"
+        },
+        {
+            "type": "java",
+            "name": "PrimeNumberChallenge",
+            "request": "launch",
+            "mainClass": "PrimeNumberChallenge",
+            "projectName": "Java Master Class_deb371d1"
+        },
+        {
+            "type": "java",
+            "name": "Starting",
+            "request": "launch",
+            "mainClass": "Starting",
+            "projectName": "Java Master Class_deb371d1"
+        },
+        {
+            "type": "java",
+            "name": "Statements",
+            "request": "launch",
+            "mainClass": "Statements",
+            "projectName": "Java Master Class_deb371d1"
+        },
+        {
+            "type": "java",
+            "name": "Testing",
+            "request": "launch",
+            "mainClass": "Testing",
+            "projectName": "Java Master Class_deb371d1"
+        },
+        {
+            "type": "java",
+            "name": "whileAndDoWhile",
+            "request": "launch",
+            "mainClass": "whileAndDoWhile",
+            "projectName": "Java Master Class_deb371d1"
+        }
+    ]
+}

@@ -2,18 +2,18 @@ public class whileAndDoWhile {
     
 
     public static void main (String[] args){
-        int j =5 ;
+        sumDigits(32123);
         // boolean isReady = false;
         // for ( int i = 1; i<=5; i ++){
         //     System.out.println(i);
         // }
 
-        while(j<=20){
+        // while(j<=20){
             
 
-            isEvenNumber(j);
-            j++;
-        }
+        //     isEvenNumber(j);
+        //     j++;
+        // }
 
         // do{
         //     if(j>5){
@@ -34,12 +34,31 @@ public class whileAndDoWhile {
         // }
     }
 
-    public static boolean isEvenNumber(int number){
+    // public static boolean isEvenNumber(int number){
 
-        if(number% 2 ==0){
-            System.out.println(number);
-            return true;
-        }
-        return false;
+    //     if(number% 2 ==0){
+    //         System.out.println(number);
+    //         return true;
+    //     }
+    //     return false;
+    // }
+
+    public static int sumDigits (int number){
+        if(number >0){
+            int sum = 0;
+
+            boolean numbersLeft = true;
+            do{
+                sum = sum +(number %10);
+                number = number /10;
+                if(number == 0){
+                    numbersLeft= false;
+                }
+
+            }while(numbersLeft);
+                System.out.println(sum);
+                return sum;
+            
+        }return -1;
     }
 }
